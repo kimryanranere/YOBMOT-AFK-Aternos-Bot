@@ -7,7 +7,7 @@
   },
   "server": {
     "ip": "SUNFIRE.aternos.me",
-    "port":26829,
+    "port": 26829,
     "version": "",
     "try-creative": false
   },
