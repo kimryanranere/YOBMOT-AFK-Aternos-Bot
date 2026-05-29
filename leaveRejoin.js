@@ -80,7 +80,7 @@ function setupLeaveRejoin(bot, createBot) {
         cleanup()
         stopped = false
 
-        // Stay connected: 27 hours -> 15 minutes (More realistic AFK behavior)
+        // Stay connected: 27 hours -> 27 hours (More realistic AFK behavior)
         // Stay connected 27 hours before a scheduled leave/rejoin cycle.
         const stayTime = randomMs(100000, 300000)
 
